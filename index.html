@@ -3,63 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Pre-Approved Fast | Tattooed Lender</title>
+    <title>Get Pre-Approved Now | Tattooed Lender</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
-        .container { max-width: 800px; margin: auto; text-align: center; padding: 50px; }
-        .cta-btn { background-color: #ff5733; color: white; padding: 15px 30px; border: none; font-size: 18px; cursor: pointer; border-radius: 5px; }
-        .cta-btn:hover { background-color: #e04e2a; }
-        .form-container { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-top: 20px; }
-        input, select, button { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
-        .testimonial, .faq { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-top: 20px; text-align: left; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #111; color: white; text-align: center; }
+        .container { max-width: 900px; margin: auto; padding: 50px 20px; }
+        .cta-btn { background: linear-gradient(90deg, #ff8c00, #ff5733); color: white; padding: 20px 40px; border: none; font-size: 24px; font-weight: bold; cursor: pointer; border-radius: 8px; text-transform: uppercase; }
+        .cta-btn:hover { background: linear-gradient(90deg, #ff5733, #ff8c00); }
+        .form-container { background: #222; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(255, 140, 0, 0.6); margin-top: 30px; }
+        input, select, button { width: 100%; padding: 12px; margin: 10px 0; border: none; border-radius: 5px; }
+        input, select { background: #333; color: white; font-size: 18px; }
+        button { background: #ff5733; color: white; font-size: 20px; font-weight: bold; cursor: pointer; }
+        button:hover { background: #ff8c00; }
+        .highlight { font-size: 28px; font-weight: bold; color: #ff8c00; }
+        .testimonial, .faq { background: #222; padding: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(255, 140, 0, 0.4); margin-top: 20px; text-align: left; }
+        h1, h2 { color: #ff8c00; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Buying a Home? Get Pre-Approved Fast!</h1>
-        <p>Work with the Tattooed Lender and get the best mortgage rates with zero hassle.</p>
-        <p><strong>Why buy a home today?</strong></p>
-        <ul style="text-align: left; display: inline-block;">
-            <li>Build equity instead of paying rent.</li>
-            <li>Lock in a stable monthly payment.</li>
-            <li>Take advantage of tax benefits.</li>
-            <li>Own an appreciating asset.</li>
-        </ul>
+        <h1>Get Pre-Approved in 24 Hours</h1>
+        <p class="highlight">No Hassle. No Hidden Fees. Just Straightforward Mortgages.</p>
         <button class="cta-btn" onclick="document.getElementById('lead-form').scrollIntoView()">Start Now</button>
         
         <div class="form-container" id="lead-form">
-            <h2>Get Your Free Pre-Approval</h2>
-            <form action="https://formspree.io/f/meqydapo" method="POST">
+            <h2>See How Much Home You Can Afford</h2>
+            <form action="https://formspree.io/f/meqydapo?email=eangulo@westonecap.com" method="POST">
                 <input type="text" name="name" placeholder="Full Name" required>
                 <input type="email" name="email" placeholder="Email Address" required>
                 <input type="tel" name="phone" placeholder="Phone Number" required>
-                <input type="number" name="income" placeholder="Annual Income ($)" required>
-                <input type="number" name="debt" placeholder="Total Monthly Debt ($)" required>
-                <input type="number" name="credit" placeholder="Credit Score" required>
-                <select name="goal" required>
-                    <option value="" disabled selected>What is your goal?</option>
-                    <option value="First home">First Home</option>
-                    <option value="Investment property">Investment Property</option>
-                    <option value="Refinancing">Refinancing</option>
+                <input type="text" name="address" placeholder="Current Property Address" required>
+                <select name="residence_status" required>
+                    <option value="" disabled selected>Do you currently own or rent?</option>
+                    <option value="Own">Own</option>
+                    <option value="Rent">Rent</option>
                 </select>
-                <button type="submit">Submit</button>
+                <input type="number" name="income" placeholder="Gross Annual Income ($)" required>
+                <input type="number" name="debt" placeholder="Total Monthly Debt ($)" required>
+                <input type="number" name="credit" placeholder="Credit Score (if known)" required>
+                <select name="goal" required>
+                    <option value="" disabled selected>Your Goal?</option>
+                    <option value="First home">Buy My First Home</option>
+                    <option value="Investment property">Invest in Real Estate</option>
+                    <option value="Refinancing">Lower My Mortgage Payment</option>
+                </select>
+                <input type="number" name="loan_amount" placeholder="How Much Are You Looking to Finance? ($)" required>
+                <button type="submit">Get Started Now</button>
             </form>
         </div>
         
         <div class="testimonial">
             <h2>What Our Clients Say</h2>
-            <p>"Working with the Tattooed Lender was the best decision! The process was smooth, and I got a fantastic rate." - Jane D.</p>
-            <p>"I never thought getting a mortgage could be this easy! Highly recommend." - Mike S.</p>
+            <p>"This was the fastest and easiest home loan process ever! Highly recommend!" - Sarah J.</p>
+            <p>"Tattooed Lender made home buying stress-free. Best rates, best service!" - Mark T.</p>
         </div>
         
         <div class="faq">
-            <h2>Frequently Asked Questions</h2>
-            <h3>How long does the pre-approval process take?</h3>
-            <p>Most applicants receive their pre-approval within 24 hours.</p>
-            <h3>What credit score do I need?</h3>
-            <p>We work with various credit profiles, so don't hesitate to apply!</p>
-            <h3>Do you offer VA and FHA loans?</h3>
-            <p>Yes! We specialize in VA, FHA, and conventional loans to fit your needs.</p>
+            <h2>Common Questions</h2>
+            <h3>How long does pre-approval take?</h3>
+            <p>Most applicants receive approval within 24 hours.</p>
+            <h3>What if my credit isn't perfect?</h3>
+            <p>We work with all credit profiles and provide tailored solutions.</p>
+            <h3>Are there hidden fees?</h3>
+            <p>No hidden fees. Transparent, straightforward lending.</p>
         </div>
     </div>
 </body>
